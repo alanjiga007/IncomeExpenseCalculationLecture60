@@ -1,0 +1,25 @@
+﻿<Window x:Class="Lecture60.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lecture60"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="คำนวณ" HorizontalAlignment="Left" Margin="109,253,0,0" VerticalAlignment="Top" Width="94" Height="36" FontSize="30" FontFamily="Angsana New" Click="button_Click"/>
+        <TextBox x:Name="textIncome" HorizontalAlignment="Left" Height="39" Margin="227,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBox x:Name="textExpenses" HorizontalAlignment="Left" Height="40" Margin="227,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBox x:Name="textPriceTheWish" HorizontalAlignment="Left" Height="40" Margin="320,177,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="231"/>
+        <TextBox x:Name="textSaveMoney" HorizontalAlignment="Left" Height="36" Margin="433,253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="118" IsEnabled="False"/>
+        <Label x:Name="label" Content="รายได้" HorizontalAlignment="Left" Height="39" Margin="128,50,0,0" VerticalAlignment="Top" Width="94" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="รายจ่าย" HorizontalAlignment="Left" Height="40" Margin="128,117,0,0" VerticalAlignment="Top" Width="75" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="ราคาของที่อยากได้" HorizontalAlignment="Left" Height="40" Margin="128,177,0,0" VerticalAlignment="Top" Width="187" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="บาท/วัน" HorizontalAlignment="Left" Height="39" Margin="463,50,0,0" VerticalAlignment="Top" Width="94" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="บาท/วัน" HorizontalAlignment="Left" Height="39" Margin="463,117,0,0" VerticalAlignment="Top" Width="94" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Content="บาท" HorizontalAlignment="Left" Height="39" Margin="551,177,0,0" VerticalAlignment="Top" Width="94" FontFamily="Angsana New" FontSize="30" FontWeight="Bold" RenderTransformOrigin="0.275,0.452"/>
+        <Label x:Name="label_Copy3" Content="คุณต้องเก็บเงินทั้งหมด" HorizontalAlignment="Left" Height="55" Margin="227,250,0,0" VerticalAlignment="Top" Width="191" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+        <Label x:Name="label_Copy4" Content="วัน" HorizontalAlignment="Left" Height="39" Margin="556,256,0,0" VerticalAlignment="Top" Width="94" FontFamily="Angsana New" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
